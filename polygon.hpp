@@ -24,5 +24,7 @@ public:
 // Class factories - note the function signatures!
 typedef polygon* create_t();
 typedef void destroy_t(polygon*);
+typedef polygon* create_s();
+typedef void destroy_s(polygon*);
 
 #endif //POLYGON_POLYGON_HPP
